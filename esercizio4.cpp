@@ -3,14 +3,14 @@
 #include <string>
 using namespace std;
 int main(){
-    int fattoriale=1;
-    int i=1;
+    int q=1;
     int n;
     cin>>n;
     cout<<"inserisci i numeri"<<endl;
-    while(1<=n){
- fattoriale=fattoriale * i;
- i++;
- cout<<fattoriale<<endl;
+    while(n>1){
+  q =q * n;
+ n--;
+ cout<<q<<endl;
     }
+    return 0;
 } 
