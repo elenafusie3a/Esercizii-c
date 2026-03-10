@@ -1,0 +1,1 @@
+// L’utente inserisce numeri finché non scrive -1. Alla fine il programma calcola la media
