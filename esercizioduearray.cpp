@@ -13,22 +13,23 @@ int main(){
 
     for(int i=0; i<n; i++){
         cout<<"inserisci i numeri del primo array"<<endl;
-         x[n];
+         cin>> x[i];
     }
+
     for(int i=0; i<n; i++){
         cout<<"inserisci i numeri del secondo array"<<endl;
-         y[n];
+        cin>> y[i];
     }
     
+
     for(int i=0; i<n; i++){
     somma[i]=x[i]+y[i];
     }
+
 
     for(int i=0; i<n; i++){
         cout<<"la somma dei due array è"<<somma[i]<<endl;
     }
          
-
-
 
 }
